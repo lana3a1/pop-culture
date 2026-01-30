@@ -2,3 +2,50 @@ body {
     background-color: #ff69b4;
     color: #222
 }
+
+.top {
+    background-color: #ff6fb5; /* lighter neon
+    pink */
+    color: #222;
+    font-size: 18px;
+    font-weight: bold;
+
+    padding: 12px 24px;
+    border: 2px solid black; /* black
+    border */
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    box-shadow:
+    0 0 5px #ff1493,
+    0 0 15px #ff1493,
+    0 0 30px #ff1493;
+
+    transition: box-shadow 0.3s ease,
+    transform 0.2s ease;
+}
+
+.top:hover {
+    box-shadow:
+    0 0 10px #ff1493,
+    0 0 30px #ff1493,
+    0 0 60px #ff1493;
+
+    transform: scale(1.05);
+}
+
+.top::after {
+    content: "";
+    display: inline-block;
+    margin-left: 10px;
+    width: 0;
+    height: 0;
+    border-left: 12px solid
+    transparent; /* thickness */
+    border-right: 12px solid
+    transparent; /* thickness */
+    border-bottom: 20px solid
+    black;   /* arrow color & size */
+    vertical-align: middle;
+}
