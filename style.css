@@ -1,6 +1,8 @@
 body {
     background-color: #ff69b4;
-    color: #222
+    color: #222;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .top {
