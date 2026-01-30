@@ -6,6 +6,11 @@ body {
 }
 
 .top {
+    place-self:end;
+    position: sticky;
+    bottom: 20px;
+
+    /* visual styling */
     background-color: #ff6fb5; /* lighter neon
     pink */
     color: #222;
